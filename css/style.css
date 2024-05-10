@@ -44,8 +44,7 @@ nav ul li a:hover {
 .log-btn {
     background-color: transparent;
     padding: 10px 20px;
-    border: 1px solid transparent;
-    cursor: pointer;
+   cursor: pointer;
     font-size: 15px;
 
 
