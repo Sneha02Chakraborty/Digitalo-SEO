@@ -1,0 +1,192 @@
+@media(max-width: 768px){
+    .header-container{
+        width: 90%;
+
+    }
+    nav{
+        display: none;
+    }
+    .banner-container{
+        width: 90%;
+        text-align: center;
+        height: 100%;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 22px;
+    }
+    .banner-text p{
+        display: none;
+    }
+    .banner-text button{
+        padding: 10px 15px;
+        font-size: 8px
+    }
+    #banner{
+        height: 100vh;
+    }
+    .banner-image{
+        display: none;
+    }
+
+    #Service{
+        padding: 50px 0;
+    }
+
+    .service-container{
+        width: 90%;
+        margin: auto;
+    }
+    .service-title{
+        width: 100%;
+    }
+    .service-title h2{
+        font-size: 25px;
+    }
+    .service-title p{
+        font-size: 18px;
+
+    }
+    .service-content{
+        grid-template-columns: auto auto;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .service-item{
+        border: 1px solid #cccaca;
+    }
+
+ #area{
+        padding: 10px 0;
+    }
+    .area-container{
+        width: 90%;
+    }
+    .area-title{
+        margin-bottom: 25px;
+    }
+    .area-title h4{
+        font-size: 30px;
+    }
+    .area-title p{
+        font-size: 18px;
+    }
+
+    .form-input-btn{
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 75px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+
+    #about{
+        padding: 15px 0;
+    }
+    .about-container{
+        width: 90%;
+        padding: 0;
+    }
+    .about-item{
+        flex-direction: column;
+    }
+    .about-title h5{
+        font-size: 19px;
+        padding-top: 20px;
+    }
+    .about-title p {
+        font-size: 14px;
+    }
+    .about-title a button{
+        margin-top: 15px;
+        
+    }
+
+    
+    .pricing-container{
+        width: 90%;
+    }
+    .pricing-title{
+        width: 100%;
+    }
+    .pricing-items{
+        grid-template-columns: auto auto;
+        margin: auto;
+    }
+
+    .pricing-box ul li{
+        font-size: 16px;
+    }
+
+    .team-container{
+        width: 90%;
+    }
+    .team-title{
+        width: 100%;
+    }
+    .team-title h2{
+        font-size: 25px;
+    }
+    .team-title p{
+        margin-top: 18px;
+    }
+    .team-content{
+        flex-direction: column;
+    }
+    #latest{
+        padding: 0;
+    }
+    .latest-container{
+        width: 90%;
+    }
+    .latest-title{
+        width: 100%;
+    }
+    .latest-content{
+        display: none;
+    }
+
+    .footer-container{
+        width: 90%;
+       
+    
+    }
+
+.footer-down{
+    display: none;
+}
+
+.footer-end{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+}
+
+
+
+
+
+
+
+@media(max-width: 576px){
+    .service-content{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+
+    .pricing-items{
+        display: grid;
+        grid-template-columns: auto;
+       
+    }
+
+    .pricing-box{
+      
+    }
+
+}
